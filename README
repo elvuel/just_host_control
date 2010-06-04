@@ -1,0 +1,29 @@
+=JustHostControl
+
+Ruby on rails simple control panel for no SSH support.
+
+== Assumptions
+
+* You are using rails at JustHost Hosting.
+* You have no SSH support.
+
+== Installation
+
+JustHostControl is available as a plugin.
+
+==== Plugin
+
+	rails3 => rails plugin install git://github.com/elvuel/just_host_control.git
+	rails2 => ./script/plugin install git://github.com/elvuel/just_host_control.git
+
+==== Generate
+
+	rails3 => rails g just_host_control JustHostControl
+	rails2 => ./script/generate just_host_control JustHostControl
+	
+ 
+Example
+=======
+* See: generators/just_host_control/USAGE
+
+Copyright (c) 2010 elvuel(http://elvuel.com), released under the MIT license

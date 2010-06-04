@@ -1,0 +1,21 @@
+Description:
+    JustHost Ruby on rails simple control panel generator.
+
+Example:
+    ./script/generate just_host_control JustHostControl
+		This will create:
+			create  app/views/just_host_control
+			create  app/views/just_host_control/index.html.erb
+			create  app/views/just_host_control/mongrelrails.html.erb
+			create  app/views/just_host_control/mongrelrails_pid.html.erb
+			create  app/views/just_host_control/run_cmd.html.erb
+			create  app/views/just_host_control/run_rails_script.html.erb
+			create  app/views/just_host_control/task_list.html.erb
+			create  app/views/just_host_control/task_rake.html.erb
+			create  app/views/layouts/just_host_control
+			create  app/controllers/just_host_control_controller.rb
+			
+	./script/generate just_host_control JustHostControl noviews
+		This will create:
+			create  app/views/layouts/just_host_control.html.erb
+			create  app/controllers/just_host_control_controller.rb
